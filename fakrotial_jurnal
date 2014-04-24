@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
+package faktorial;
+
+/**
+ *
+ * @author Asisten
+ */
+import java.util.*;
+public class Faktorial {
+
+ public static void main (String[] args) {  
+ Scanner input=new Scanner(System.in);  
+ int x=1,j;  
+  System.out.print("bilangan faktorial = ");  
+  j=input.nextInt();  
+  System.out.print(j+"!=");  
+  for(int k=j;k>=1;k--){  
+    System.out.print(k+" * ");  
+  }  
+ for(int i=j;i>=1;i--){  
+ x=x*i;  
+ }  
+   
+ System.out.println("= "+x);  
+   
+}  
+}
